@@ -1,7 +1,8 @@
 .favorites {
-  padding: 2rem;
+  padding: 2rem 0;
   width: 100%;
   box-sizing: border-box;
+  margin-top: 3rem;
 }
 
 .favorites h2 {
@@ -32,7 +33,9 @@
   font-size: 1.2rem;
   line-height: 1.6;
 }
-
+.movies-grid{
+  display: flex;
+}
 
 /* Animation for new favorites being added */
 @keyframes fadeIn {
