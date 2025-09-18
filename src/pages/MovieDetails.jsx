@@ -42,7 +42,7 @@ const MovieDetails = () => {
     
     <div className="movie-details">
         <div className="back-button">
-             <button onClick={() => navigate(-1)}>⬅ Back</button>
+             <button class="back-btn" onClick={() => navigate(-1)}>⬅ Back</button>
         </div>
    
       

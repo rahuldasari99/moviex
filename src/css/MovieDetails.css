@@ -31,7 +31,14 @@
     padding: 20px;
     line-height: 2;
 }
-
+.back-btn{
+    background-color: black;
+    color: white;
+}
+.back-btn:hover{
+    color: red;
+    border: red;
+}
 @media (max-width: 639px) {
     .movie-details{
         flex-direction: column;
